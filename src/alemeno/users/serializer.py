@@ -15,4 +15,4 @@ class CustomerSerializer(serializers.ModelSerializer):
 class LoanSerializer(serializers.ModelSerializer):
     class Meta:
         model = LoanData
-        felds = ('customer_id', 'loan_id', 'loan_amount', 'tenure', 'interest_rate', 'monthly_payment', 'emis_paid_on_time', 'date_of_approval', 'end_date')
+        fields = ('customer_id', 'loan_id', 'loan_amount', 'tenure', 'interest_rate', 'monthly_payment', 'emis_paid_on_time', 'date_of_approval', 'end_date')
